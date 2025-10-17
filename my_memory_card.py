@@ -1,9 +1,6 @@
 #создай приложение для запоминания информации
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import Qt
-
-
-
 print()
 app =QApplication([])
 main_win =QWidget()
@@ -176,6 +173,7 @@ next_question()
 
 main_win.show()
 app.exec_()
+
 
 
 
