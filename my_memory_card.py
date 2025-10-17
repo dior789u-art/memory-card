@@ -10,7 +10,7 @@ class Question():
         self.wrong2 = wrong2
         self.wrong3 = wrong3
 
-
+print()
 app =QApplication([])
 main_win =QWidget()
 main_win.setWindowTitle('Memory Card')
@@ -182,6 +182,7 @@ next_question()
 
 main_win.show()
 app.exec_()
+
 
 
 
