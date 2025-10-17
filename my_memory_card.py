@@ -4,7 +4,7 @@ from PyQt5.QtCore import Qt
 
 
 
-
+print()
 app =QApplication([])
 main_win =QWidget()
 main_win.setWindowTitle('Memory Card')
